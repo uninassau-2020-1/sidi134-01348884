@@ -1,0 +1,10 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  margin-bottom: 45px;
+}
+button {
+  margin-top: 45px;
+}

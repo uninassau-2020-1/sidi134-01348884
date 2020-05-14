@@ -1,0 +1,24 @@
+<mat-card class="mat-elevation-z4">
+  <mat-card-title class="title">Seu endereço</mat-card-title>
+<form>
+  <mat-form-field>
+    <input class="input" matInput placeholder="cep" [(ngModel)]="cep.cep" name="cep">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="logradouro" [(ngModel)]="cep.logradouro" name="logradouro">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="complemento" [(ngModel)]="cep.complemento" name="complemento">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="bairro" [(ngModel)]="cep.bairro" name="bairro">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="localidade" [(ngModel)]="cep.localidade" name="localidade">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="uf" [(ngModel)]="cep.uf" name="uf">
+  </mat-form-field>
+</form>
+  <button mat-raised-button color="primary" (click)="volta()">Voltar</button>
+</mat-card>
